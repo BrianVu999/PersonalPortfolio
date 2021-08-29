@@ -1,0 +1,166 @@
+body {
+    font-family: 'Roboto';
+    background-color: #EDEDED;
+}
+
+.pageHeading {
+    width: 55%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+#personalPhoto {
+    width: 270px;
+    border-radius: 300px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.58);
+    float: right;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+#head1 {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#head2 {
+    display: block;
+    font-size: 20px;
+}
+
+#head3 {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-weight: 10;
+    font-size: 13px;
+}
+
+.icon {
+    float: left;
+    width: 15px;
+    margin-right: 5px;
+}
+
+.icon2 {
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#checkPortfolioButton {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #fffafb;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.buttons {
+    margin: 10%;
+    text-align: center;
+}
+
+.btn-hover {
+    width: 170px;
+    font-size: 11px;
+    color: #fff;
+    cursor: pointer;
+    height: 30px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 10px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color-8 {
+    background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+    box-shadow: 4px 4px 15px -5px rgba(45, 54, 65, 0.75);
+}
+
+.typing {
+    width: 10.3ch;
+    animation: typing 2s steps(10), blink 1s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
+
+@media screen and (max-width: 900) {
+    .pageHeading {
+        width: 100%;
+        margin: auto;
+        margin-top: 10%;
+    }
+}
+
+@media (max-width:961px) {
+    .pageHeading {
+        width: 80%;
+    }
+}
+
+@media (max-width:480px) {
+    #personalPhoto {
+        display: block;
+        float: none;
+        width: 200px;
+        margin: auto;
+    }
+    .pageHeading {
+        width: 90%;
+    }
+    .gridContainer {
+        grid-template-columns: 1fr;
+        grid-gap: 0px;
+    }
+    #personalInfoContainer {
+        width: 60%;
+        margin: auto;
+    }
+}
