@@ -14,15 +14,6 @@ let project = {
 
 let projects = [];
 
-project.imageSrc = "projectPics/ticTacToe.PNG";
-project.title = "Tic Tac Toe";
-project.programmingLanguage = "JavaScript, HTML/CSS";
-project.webUrl = "https://brianvu999.github.io/TicTacToe/";
-project.sourceCodeUrl = "https://github.com/BrianVu999/TicTacToe";
-projects.push(project);
-
-project = new Object();
-
 project.imageSrc = "projectPics/playerManagement.PNG";
 project.title = "Player Management App";
 project.programmingLanguage = "PHP, HTML/CSS, MySQL";
@@ -37,6 +28,15 @@ project.title = "Discussion Forum";
 project.programmingLanguage = "JavaSpring, Thymeleaf, Junit, H2database, JDBC API";
 project.webUrl = "https://www.youtube.com/watch?v=U7NsrTbkP8o&feature=youtu.be&ab_channel=BrianVu";
 project.sourceCodeUrl = "https://github.com/BrianVu999/Discussion-Forum";
+projects.push(project);
+
+project = new Object();
+
+project.imageSrc = "projectPics/ticTacToe.PNG";
+project.title = "Tic Tac Toe";
+project.programmingLanguage = "JavaScript, HTML/CSS";
+project.webUrl = "https://brianvu999.github.io/TicTacToe/";
+project.sourceCodeUrl = "https://github.com/BrianVu999/TicTacToe";
 projects.push(project);
 
 project = new Object();
