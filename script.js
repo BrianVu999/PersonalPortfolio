@@ -14,11 +14,11 @@ let project = {
 
 let projects = [];
 
-project.imageSrc = "projectPics/timhortons.PNG";
-project.title = "Timhorton Order App";
-project.programmingLanguage = "PHP, HTML/CSS";
-project.webUrl = "http://vu8.dev.fast.sheridanc.on.ca/syst10199/Drink-Order-Form/";
-project.sourceCodeUrl = "https://github.com/BrianVu999/Drink-Order";
+project.imageSrc = "projectPics/ticTacToe.PNG";
+project.title = "Tic Tac Toe";
+project.programmingLanguage = "JavaScript, HTML/CSS";
+project.webUrl = "https://brianvu999.github.io/TicTacToe/";
+project.sourceCodeUrl = "https://github.com/BrianVu999/TicTacToe";
 projects.push(project);
 
 project = new Object();
@@ -26,17 +26,17 @@ project = new Object();
 project.imageSrc = "projectPics/playerManagement.PNG";
 project.title = "Player Management App";
 project.programmingLanguage = "PHP, HTML/CSS, MySQL";
-project.webUrl = "http://vu8.dev.fast.sheridanc.on.ca/syst10199/SQL-Management/index_HOME.php";
+project.webUrl = "http://vu8.dev.fast.sheridanc.on.ca/PersonalProjects/SQL-Management/index_HOME.php";
 project.sourceCodeUrl = "https://github.com/BrianVu999/MySQL-Management";
 projects.push(project);
 
 project = new Object();
 
-project.imageSrc = "projectPics/ticTacToe.PNG";
-project.title = "Tic Tac Toe";
-project.programmingLanguage = "JavaScript, HTML/CSS";
-project.webUrl = "https://brianvu999.github.io/TicTacToe/";
-project.sourceCodeUrl = "https://github.com/BrianVu999/TicTacToe";
+project.imageSrc = "projectPics/discussForum.PNG";
+project.title = "Discussion Forum";
+project.programmingLanguage = "JavaSpring, Thymeleaf, Junit, H2database, JDBC API";
+project.webUrl = "https://www.youtube.com/watch?v=U7NsrTbkP8o&feature=youtu.be&ab_channel=BrianVu";
+project.sourceCodeUrl = "https://github.com/BrianVu999/Discussion-Forum";
 projects.push(project);
 
 project = new Object();
@@ -50,11 +50,11 @@ projects.push(project);
 
 project = new Object();
 
-project.imageSrc = "projectPics/discussForum.PNG";
-project.title = "Discussion Forum";
-project.programmingLanguage = "JavaSpring, Thymeleaf, Junit, H2database, JDBC API";
-project.webUrl = "https://www.youtube.com/watch?v=U7NsrTbkP8o&feature=youtu.be&ab_channel=BrianVu";
-project.sourceCodeUrl = "https://github.com/BrianVu999/Discussion-Forum";
+project.imageSrc = "projectPics/timhortons.PNG";
+project.title = "Timhorton Order App";
+project.programmingLanguage = "PHP, HTML/CSS";
+project.webUrl = "http://vu8.dev.fast.sheridanc.on.ca/PersonalProjects/Drink-Order-Form/";
+project.sourceCodeUrl = "https://github.com/BrianVu999/Drink-Order";
 projects.push(project);
 
 project = new Object();
