@@ -1,6 +1,14 @@
 body {
     font-family: 'Roboto';
     background-color: #EDEDED;
+    margin: 0;
+}
+
+#firstPage {
+    background-image: url("projectPics/headingBackground.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .pageHeading {
@@ -11,10 +19,16 @@ body {
 }
 
 #personalPhoto {
-    width: 270px;
-    border-radius: 300px;
-    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.58);
+    margin-top: 25px;
+    width: 220px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.58);
     float: right;
+}
+
+#personalPhoto:hover {
+    transition: 0.5s;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.58);
 }
 
 .gridContainer {
@@ -132,6 +146,11 @@ a {
     }
 }
 
+#pageBody {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
 #projectsGridContainer {
     margin-left: 100px;
     margin-right: 100px;
@@ -218,7 +237,7 @@ a {
     #personalPhoto {
         display: block;
         float: none;
-        width: 200px;
+        width: 170px;
         margin: auto;
         margin-bottom: 0px;
     }
@@ -237,5 +256,8 @@ a {
         grid-template-columns: 1fr;
         margin-left: 20px;
         margin-right: 20px;
+    }
+    #pageBody {
+        padding-top: 20px;
     }
 }
