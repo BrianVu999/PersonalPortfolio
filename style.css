@@ -208,7 +208,7 @@ a {
 @media (max-width:480px) {
     #checkPortfolioButton {
         margin: auto;
-        margin-top: 70%;
+        margin-top: 40%;
     }
     .gridContainer {
         grid-template-columns: 1fr;
