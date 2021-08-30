@@ -59,7 +59,7 @@ projects.push(project);
 
 project = new Object();
 
-project.imageSrc = "projectPics/cookieInventory.JPEG";
+project.imageSrc = "projectPics/cookieInventory.jpeg";
 project.title = "Cookie Inventory";
 project.programmingLanguage = "Java, JavaFX";
 project.webUrl = "https://github.com/BrianVu999/Cookie-Inventory";
